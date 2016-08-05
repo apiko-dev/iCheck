@@ -14,7 +14,7 @@ Provide a reactive template for creating iCheck checkboxes.
 
 `test.js`
 
-```
+```js
 Template.test.helpers({
     onChangedCallback() {
         return isChecked => {
